@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ReportingTests]">
+  <test name="Basic tests(failed)">
+    <classes>
+      <class name="LearnigTestNG.ReportingTests">
+        <methods>
+          <include name="feature3"/>
+        </methods>
+      </class> <!-- LearnigTestNG.ReportingTests -->
+    </classes>
+  </test> <!-- Basic tests(failed) -->
+</suite> <!-- Failed suite [ReportingTests] -->

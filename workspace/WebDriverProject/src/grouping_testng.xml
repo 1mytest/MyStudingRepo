@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FLearningParameter">
+  <test verbose="2" name="Basic tests">
+  	<groups>
+  		<run>
+  			<include name="perfomance"/>
+  			<exclude name="regression"/>
+ 		 </run>
+  	</groups>
+    <classes>
+      <class name="LearnigTestNG.GroupingTests"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->

@@ -1,0 +1,15 @@
+package TestPackage;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class TestingLog4j {
+	
+	@Test
+	public void testLogs(){
+		WebDriver driver =  new FirefoxDriver();
+		driver.get("http://ukr.net");
+	}
+
+}

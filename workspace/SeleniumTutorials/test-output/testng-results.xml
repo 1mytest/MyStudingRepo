@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47" started-at="2016-05-30T13:19:35Z" finished-at="2016-05-30T13:19:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47" started-at="2016-05-30T13:19:35Z" finished-at="2016-05-30T13:19:35Z">
+      <class name="org.com.learningMaven.HiTest">
+        <test-method status="PASS" signature="someShit()[pri:0, instance:org.com.learningMaven.HiTest@61a485d2]" name="someShit" duration-ms="0" started-at="2016-05-30T06:19:35Z" finished-at="2016-05-30T06:19:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- someShit -->
+      </class> <!-- org.com.learningMaven.HiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
