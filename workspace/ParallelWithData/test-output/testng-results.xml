@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel with Data" duration-ms="34714" started-at="2016-06-16T15:42:55Z" finished-at="2016-06-16T15:43:30Z">
+    <groups>
+    </groups>
+    <test name="Parallel test" duration-ms="34714" started-at="2016-06-16T15:42:55Z" finished-at="2016-06-16T15:43:30Z">
+      <class name="TestPackage.ParallelDataTest">
+        <test-method status="PASS" signature="simpletest(java.lang.String)[pri:0, instance:TestPackage.ParallelDataTest@62ee68d8]" name="simpletest" duration-ms="34605" started-at="2016-06-16T08:42:55Z" data-provider="getData" finished-at="2016-06-16T08:43:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpletest -->
+        <test-method status="PASS" signature="simpletest(java.lang.String)[pri:0, instance:TestPackage.ParallelDataTest@62ee68d8]" name="simpletest" duration-ms="23059" started-at="2016-06-16T08:42:55Z" data-provider="getData" finished-at="2016-06-16T08:43:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpletest -->
+        <test-method status="PASS" signature="simpletest(java.lang.String)[pri:0, instance:TestPackage.ParallelDataTest@62ee68d8]" name="simpletest" duration-ms="16882" started-at="2016-06-16T08:42:55Z" data-provider="getData" finished-at="2016-06-16T08:43:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- simpletest -->
+      </class> <!-- TestPackage.ParallelDataTest -->
+    </test> <!-- Parallel test -->
+  </suite> <!-- Parallel with Data -->
+</testng-results>
