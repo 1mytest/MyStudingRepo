@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ParallelTest suite" duration-ms="72132" started-at="2016-06-16T11:21:48Z" finished-at="2016-06-16T11:23:01Z">
+    <groups>
+    </groups>
+    <test name="ParallelTest" duration-ms="72132" started-at="2016-06-16T11:21:48Z" finished-at="2016-06-16T11:23:01Z">
+      <class name="MyPackage.ParallelTest">
+        <test-method status="PASS" signature="beforstart()[pri:0, instance:MyPackage.ParallelTest@1753acfe]" name="beforstart" is-config="true" duration-ms="16457" started-at="2016-06-16T04:21:48Z" finished-at="2016-06-16T04:22:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforstart -->
+        <test-method status="PASS" signature="beforstart()[pri:0, instance:MyPackage.ParallelTest@1753acfe]" name="beforstart" is-config="true" duration-ms="16435" started-at="2016-06-16T04:21:48Z" finished-at="2016-06-16T04:22:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforstart -->
+        <test-method status="PASS" signature="secondttest()[pri:0, instance:MyPackage.ParallelTest@1753acfe]" name="secondttest" duration-ms="48243" started-at="2016-06-16T04:22:05Z" finished-at="2016-06-16T04:22:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondttest -->
+        <test-method status="PASS" signature="firsttest()[pri:0, instance:MyPackage.ParallelTest@1753acfe]" name="firsttest" duration-ms="47251" started-at="2016-06-16T04:22:05Z" finished-at="2016-06-16T04:22:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firsttest -->
+        <test-method status="PASS" signature="afterfinish()[pri:0, instance:MyPackage.ParallelTest@1753acfe]" name="afterfinish" is-config="true" duration-ms="8396" started-at="2016-06-16T04:22:52Z" finished-at="2016-06-16T04:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterfinish -->
+        <test-method status="PASS" signature="afterfinish()[pri:0, instance:MyPackage.ParallelTest@1753acfe]" name="afterfinish" is-config="true" duration-ms="7425" started-at="2016-06-16T04:22:53Z" finished-at="2016-06-16T04:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterfinish -->
+      </class> <!-- MyPackage.ParallelTest -->
+    </test> <!-- ParallelTest -->
+  </suite> <!-- ParallelTest suite -->
+</testng-results>
