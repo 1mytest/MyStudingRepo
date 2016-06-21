@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Parallel with Data]" parallel="tests">
+  <parameter name="myBrowser" value="chrome"/>
+  <test name="Parallel test2(failed)" parallel="tests">
+    <parameter name="myBrowser" value="chrome"/>
+    <classes>
+      <class name="MyPackage.ParallelTest">
+        <methods>
+          <include name="afterfinish"/>
+          <include name="simpletest"/>
+          <include name="beforstart"/>
+          <include name="beforstart"/>
+        </methods>
+      </class> <!-- MyPackage.ParallelTest -->
+    </classes>
+  </test> <!-- Parallel test2(failed) -->
+</suite> <!-- Failed suite [Parallel with Data] -->
